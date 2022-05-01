@@ -11,7 +11,7 @@ app.use("/books", router); // localhost:5000/books
 
 mongoose
   .connect(
-    "mongodb+srv://rootAdmin:adminAdmin@cluster0.bewlw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongodb+srv://<userName>:<password>@cluster0.bewlw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   )
   .then(() => console.log("Connected To Database"))
   .then(() => {
