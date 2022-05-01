@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+./readerspace_backend/node_modules/
+./readerspace_frontend/node_modules/
